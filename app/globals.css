@@ -22,6 +22,7 @@
   --color-app-container: var(--app-container);
 
   --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
 
   --color-border-primary: var(--border-primary);
   --color-border-secondary: var(--border-secondary);

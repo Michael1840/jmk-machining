@@ -9,7 +9,8 @@ export default function HeroButtons() {
       <RegularButton
         title="Request a Quote"
         onClick={() => {}}
-        className="bg-accent border-none shadow-accent"
+        hasIcon={true}
+        className="bg-accent border-2 border-none"
       />
       <RegularButton title="Our Services" onClick={() => {}} />
     </RowContainer>

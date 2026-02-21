@@ -52,6 +52,26 @@ export default function Navbar() {
           Services
         </Link>
         <Link
+          href="/products"
+          className={
+            pathname === '/products'
+              ? 'text-text-primary font-medium text-sm'
+              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
+          }
+        >
+          Products
+        </Link>
+        <Link
+          href="/gallery"
+          className={
+            pathname === '/gallery'
+              ? 'text-text-primary font-medium text-sm'
+              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
+          }
+        >
+          Gallery
+        </Link>
+        <Link
           href="/contact"
           className={
             pathname === '/contact'

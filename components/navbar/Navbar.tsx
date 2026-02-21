@@ -9,12 +9,12 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 flex items-center gap-4 justify-between px-8 py-4 backdrop-blur-md bg-app-background/20 border-b border-border-secondary">
+    <div className="fixed top-0 left-0 right-0 z-50 flex items-center gap-4 justify-between px-8 py-6 backdrop-blur-md bg-app-background/20 border-b border-border-secondary">
       <Link href="/" className="text-xl font-bold text-primary self-start">
         <Image
           src="/jmk-white.svg"
           alt="Logo"
-          width={60}
+          width={40}
           height={10}
           className="fill-white"
           color="white"

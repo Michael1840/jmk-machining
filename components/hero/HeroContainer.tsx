@@ -18,7 +18,7 @@ export default function HeroContainer({
           priority
         />
         
-        <div className="absolute inset-0 flex items-center justify-center bg-black/75 backdrop-blur-xs">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/85 backdrop-blur-xs">
           {children}
         </div>
       </div>

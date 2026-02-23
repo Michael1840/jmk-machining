@@ -1,7 +1,7 @@
 'use client';
 
-import RegularButton from '../buttons/RegularButton';
-import RowContainer from '../containers/RowContainer';
+import RegularButton from '../../buttons/RegularButton';
+import RowContainer from '../../containers/RowContainer';
 
 export default function HeroButtons() {
   return (

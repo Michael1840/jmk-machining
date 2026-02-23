@@ -1,6 +1,6 @@
 'use client';
 
-import RegularButton from '../buttons/RegularButton';
+import RegularButton from '../../buttons/RegularButton';
 
 export default function ServiceContainerButton() {
   return (

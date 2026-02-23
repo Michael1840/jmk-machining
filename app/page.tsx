@@ -1,8 +1,8 @@
 import ReadyToStartContainer from '@/components/containers/ReadyToStartContainer';
-import ChooseUsContainer from '@/components/home/ChooseUsContainer';
-import HeroHome from '@/components/home/HeroHome';
-import ServiceContainer from '@/components/home/ServiceContainer';
-import StatContainer from '@/components/home/StatContainer';
+import ChooseUsContainer from '@/components/pages/home/ChooseUsContainer';
+import HeroHome from '@/components/pages/home/HeroHome';
+import ServiceContainer from '@/components/pages/home/ServiceContainer';
+import StatContainer from '@/components/pages/home/StatContainer';
 
 export default function Home() {
   return (

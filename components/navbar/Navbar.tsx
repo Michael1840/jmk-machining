@@ -5,6 +5,8 @@ import Link from 'next/link';
 
 import { usePathname } from 'next/navigation';
 
+import { Menu } from 'lucide-react';
+
 export default function Navbar() {
   const pathname = usePathname();
 
@@ -20,7 +22,7 @@ export default function Navbar() {
           color="white"
         />
       </Link>
-      <div className="flex gap-8 absolute left-1/2 -translate-x-1/2">
+      <div className="hidden md:flex gap-8 absolute left-1/2 -translate-x-1/2">
         <Link
           href="/"
           className={
@@ -82,6 +84,7 @@ export default function Navbar() {
           Contact
         </Link>
       </div>
+      <Menu className=" md:hidden" />
     </div>
   );
 }

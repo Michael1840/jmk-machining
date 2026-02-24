@@ -31,7 +31,7 @@ export default function RegularButton({
       />
 
       {/* Content */}
-      <span className="relative z-10 flex items-center gap-2">
+      <span className="relative z-10 flex justify-center items-center gap-2">
         {prefixIcon && prefixIcon} {title} {hasIcon && <ArrowRight size={16} />}
       </span>
     </button>

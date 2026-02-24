@@ -1,11 +1,12 @@
 import ColumnContainer from '@/components/containers/ColumnContainer';
 import HeroButtons from '@/components/pages/home/HeroButtons';
 import HeroContainer from '../../hero/HeroContainer';
+import Section from '@/components/section/Section';
 
 export default function HeroHome() {
   return (
     <HeroContainer image="/hero_home.png">
-      <ColumnContainer className="md:max-w-200 px-4 py-16 md:p-20">
+      <ColumnContainer className="md:max-w-200">
         <h3 className="font-medium text-sm mt-5 text-accent text-center">
           INDUSTRIAL MACHINING & REPAIR
         </h3>

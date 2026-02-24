@@ -2,10 +2,11 @@ import { Zap, Flame, Layers, Drill } from 'lucide-react';
 import ServiceItem from './ServiceItem';
 import RegularButton from '../../buttons/RegularButton';
 import ServiceContainerButton from './ServiceContainerButton';
+import Section from '@/components/section/Section';
 
 export default function ServiceContainer() {
   return (
-    <div className="flex flex-col px-4 py-16 md:p-40 bg-app-background">
+    <Section className="flex flex-col bg-app-background">
       <div className="gap-20">
         <h3 className="font-medium text-sm mt-5 text-accent text-center">
           WHAT WE DO
@@ -37,6 +38,6 @@ export default function ServiceContainer() {
         />
       </div>
       <ServiceContainerButton />
-    </div>
+    </Section>
   );
 }

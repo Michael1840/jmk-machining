@@ -1,8 +1,9 @@
+import Section from '@/components/section/Section';
 import { CircleCheck } from 'lucide-react';
 
 export default function QualityContainer() {
   return (
-    <div className="flex flex-wrap-reverse gap-10 px-4 py-16 md:p-20 bg-app-container border-y border-border-secondary justify-center">
+    <Section className="flex flex-wrap-reverse gap-10 bg-app-container border-y border-border-secondary justify-center">
       <img
         src={'/man_welding.png'}
         alt="Man welding"
@@ -43,6 +44,6 @@ export default function QualityContainer() {
           </li>
         </ul>
       </div>
-    </div>
+    </Section>
   );
 }

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { ReactNode } from 'react';
 
 import { twMerge } from 'tailwind-merge';
+import Section from '../section/Section';
 
 export default function HeroContainer({
   children,
@@ -13,7 +14,7 @@ export default function HeroContainer({
   className?: string;
 }) {
   return (
-    <div className="relative w-full" style={{ height: '100dvh' }}>
+    <div className="relative w-full h-dvh">
       <Image
         src={image}
         alt="Hero"
@@ -24,7 +25,7 @@ export default function HeroContainer({
 
       <div
         className={twMerge(
-          'absolute inset-0 flex items-center justify-center bg-black/85 backdrop-blur-xs ',
+          'absolute inset-0 flex items-center justify-center bg-black/85 backdrop-blur-xs px-4 py-16 md:p-20',
           className,
         )}
       >

@@ -1,8 +1,8 @@
-import { CircleCheck } from 'lucide-react';
+import Section from '@/components/section/Section';
 
 export default function StoryContainer() {
   return (
-    <div className="flex flex-wrap-reverse gap-10 px-4 py-16 md:p-20 bg-app-container border-y border-border-secondary justify-center">
+    <Section className="flex flex-wrap-reverse gap-10 bg-app-container border-y border-border-secondary justify-center">
       <img
         src={'/drill.png'}
         alt="Drill image"
@@ -35,6 +35,6 @@ export default function StoryContainer() {
           </p>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }

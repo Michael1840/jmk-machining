@@ -1,10 +1,12 @@
 import ValueItem from './ValueItem';
 
+import Section from '@/components/section/Section';
+
 import { Medal, Target, Clock3 } from 'lucide-react';
 
 export default function ValuesContainer() {
   return (
-    <div className="flex flex-col px-4 py-16 md:p-20 gap-10 bg-app-background">
+    <Section className="flex flex-col gap-10 bg-app-background">
       <div className="gap-20">
         <h3 className="font-medium text-sm mt-5 text-accent text-center">
           OUR VALUES
@@ -30,6 +32,6 @@ export default function ValuesContainer() {
           description="We ensure consistent reliability through proactive maintenance and transparent communication."
         />
       </div>
-    </div>
+    </Section>
   );
 }

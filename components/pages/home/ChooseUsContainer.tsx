@@ -1,9 +1,10 @@
+import Section from '@/components/section/Section';
 import { CircleCheck } from 'lucide-react';
 import Image from 'next/image';
 
 export default function ChooseUsContainer() {
   return (
-    <div className="flex flex-wrap-reverse gap-10 px-4 py-16 md:px-40 md:py-20 bg-app-container border-y border-border-secondary justify-center">
+    <Section className="flex flex-wrap-reverse gap-10 bg-app-container border-y border-border-secondary justify-center">
       <div className="flex-1 min-w-1/2">
         <div className="flex flex-col gap-10">
           <h3 className="font-medium text-sm text-accent text-center md:text-left">
@@ -48,6 +49,6 @@ export default function ChooseUsContainer() {
         alt="Bearing image"
         className="flex-1 min-w-75 max-w-125 self-stretch object-cover rounded-xl"
       />
-    </div>
+    </Section>
   );
 }

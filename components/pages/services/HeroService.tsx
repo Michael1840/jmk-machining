@@ -1,11 +1,12 @@
 import ColumnContainer from '@/components/containers/ColumnContainer';
 import HeroContainer from '../../hero/HeroContainer';
+import Section from '@/components/section/Section';
 
 export default function HeroServices() {
   return (
     <HeroContainer
       image="/hero_services.png"
-      className="justify-center sm:justify-start p-8 md:p-20"
+      className="justify-center sm:justify-start"
     >
       <ColumnContainer className="justify-start max-w-full lg:max-w-1/2">
         <h3 className="font-medium text-sm mt-5 text-accent text-center sm:text-start">

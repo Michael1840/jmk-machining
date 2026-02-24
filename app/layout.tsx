@@ -4,6 +4,7 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import Footer from '@/components/footer/Footer';
 import HamburgerNav from '@/components/navbar/HamburgerNav';
+import ScrollToTop from '@/components/animator/ScrollToTop';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable} font-sans antialiased`}>
+        {/* <ScrollToTop /> */}
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -13,61 +13,61 @@ export default function HamburgerNav({
       <ul className="flex flex-col px-8 pb-8 gap-4">
         <Link
           href="/"
-          className={
+          className={`${
             pathname === '/'
-              ? 'text-text-primary font-medium text-sm'
-              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
-          }
+              ? 'text-text-primary font-bold text-lg'
+              : 'text-text-secondary hover:text-text-primary font-normal text-base'
+          }  transition-all duration-150 ease-out`}
         >
           Home
         </Link>
         <Link
           href="/about"
-          className={
+          className={`${
             pathname === '/about'
-              ? 'text-text-primary font-medium text-sm'
-              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
-          }
+              ? 'text-text-primary font-bold text-lg'
+              : 'text-text-secondary hover:text-text-primary font-normal text-base'
+          }  transition-all duration-150 ease-out`}
         >
           About
         </Link>
         <Link
           href="/services"
-          className={
+          className={`${
             pathname === '/services'
-              ? 'text-text-primary font-medium text-sm'
-              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
-          }
+              ? 'text-text-primary font-bold text-lg'
+              : 'text-text-secondary hover:text-text-primary font-normal text-base'
+          }  transition-all duration-150 ease-out`}
         >
           Services
         </Link>
         <Link
           href="/products"
-          className={
+          className={`${
             pathname === '/products'
-              ? 'text-text-primary font-medium text-sm'
-              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
-          }
+              ? 'text-text-primary font-bold text-lg'
+              : 'text-text-secondary hover:text-text-primary font-normal text-base'
+          }  transition-all duration-150 ease-out`}
         >
           Products
         </Link>
         <Link
           href="/gallery"
-          className={
+          className={`${
             pathname === '/gallery'
-              ? 'text-text-primary font-medium text-sm'
-              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
-          }
+              ? 'text-text-primary font-bold text-lg'
+              : 'text-text-secondary hover:text-text-primary font-normal text-base'
+          }  transition-all duration-150 ease-out`}
         >
           Gallery
         </Link>
         <Link
           href="/contact"
-          className={
+          className={`${
             pathname === '/contact'
-              ? 'text-text-primary font-medium text-sm'
-              : 'text-text-secondary hover:text-text-primary font-normal text-sm'
-          }
+              ? 'text-text-primary font-bold text-lg'
+              : 'text-text-secondary hover:text-text-primary font-normal text-base'
+          }  transition-all duration-150 ease-out`}
         >
           Contact
         </Link>

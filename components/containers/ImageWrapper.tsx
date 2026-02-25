@@ -13,13 +13,15 @@ export default function ImageWrapper({
   className?: string;
 }) {
   return (
-    <RevealSection
-      className={twMerge(
-        'relative flex-1 min-w-75 max-w-125 self-stretch rounded-xl overflow-hidden',
-        className,
-      )}
-    >
-      <Image src={src} alt={alt} fill className="object-cover" />
+    <RevealSection>
+      <div
+        className={twMerge(
+          'relative flex-1 min-w-75 max-w-125 self-stretch rounded-xl overflow-hidden min-h-64',
+          className,
+        )}
+      >
+        <Image src={src} alt={alt} fill className="object-cover" />
+      </div>
     </RevealSection>
   );
 }

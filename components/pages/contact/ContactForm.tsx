@@ -13,8 +13,8 @@ export default function ContactForm() {
   }
 
   return (
-    <Section className="flex flex-row">
-      <div className="flex flex-col w-full bg-accent rounded-l-lg py-16 px-8 gap-4">
+    <Section className="flex flex-col md:flex-row">
+      <div className="flex flex-col w-full bg-accent rounded-t-lg md:rounded-tr-none md:rounded-l-lg px-4 py-16 md:px-8 gap-4">
         <div className="flex flex-col gap-1">
           <h3 className="text-app-background font-bold text-3xl">
             Get in Touch with Us
@@ -50,7 +50,7 @@ export default function ContactForm() {
         </div>
       </div>
       <form
-        className="flex flex-col w-full bg-app-container rounded-r-lg p-16 gap-4"
+        className="flex flex-col w-full bg-app-container rounded-b-lg md:rounded-bl-none md:rounded-r-lg py-16 px-4 md:p-16 gap-4"
         onSubmit={handleSubmit}
       >
         <div className="flex flex-col gap-2">

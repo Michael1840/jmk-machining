@@ -16,7 +16,7 @@ export default function ImageWrapper({
     <RevealSection>
       <div
         className={twMerge(
-          'relative flex-1 min-w-75 max-w-125 self-stretch rounded-xl overflow-hidden min-h-64',
+          'relative flex-1 min-w-75 md:min-w-100 lg:min-w-125 max-w-125 self-stretch rounded-xl overflow-hidden min-h-64 md:aspect-square',
           className,
         )}
       >

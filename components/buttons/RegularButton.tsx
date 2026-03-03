@@ -9,17 +9,23 @@ export default function RegularButton({
   onClick,
   className,
   prefixIcon,
+  disabled = false,
   hasIcon = false,
+  buttonType = 'button',
 }: {
   title: string;
   onClick: () => void;
   prefixIcon?: ReactNode;
   className?: string;
   hasIcon?: boolean;
+  disabled?: boolean;
+  buttonType?: 'button' | 'submit' | 'reset';
 }) {
   return (
     <button
+      type={buttonType}
       onClick={onClick}
+      disabled={disabled}
       className={twMerge(
         'relative bg-app-container overflow-hidden group rounded-lg text-sm font-medium border-2 border-border-secondary py-1.5 px-8',
         className,

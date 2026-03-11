@@ -5,7 +5,7 @@ import Section from '@/components/section/Section';
 export default function HeroServices() {
   return (
     <HeroContainer
-      image="/hero_services.png"
+      image="/images/hero_services.png"
       className="justify-center sm:justify-start"
     >
       <ColumnContainer className="justify-start max-w-full lg:max-w-1/2">

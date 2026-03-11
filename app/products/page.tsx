@@ -1,6 +1,6 @@
 import ReadyToStartContainer from '@/components/containers/ReadyToStartContainer';
 
-export default function Products() {
+export default function ProductsPage() {
   return (
     <>
       <ReadyToStartContainer />

@@ -5,7 +5,10 @@ import { CircleCheck } from 'lucide-react';
 export default function QualityContainer() {
   return (
     <Section className="flex flex-wrap-reverse gap-10 bg-app-container border-y border-border-secondary justify-center">
-      <ImageWrapper src={'/quality.jpg'} alt="Welding mask and tig welder" />
+      <ImageWrapper
+        src={'/images/quality.jpg'}
+        alt="Welding mask and tig welder"
+      />
       <div className="flex-1 min-w-1/2">
         <div className="flex flex-col gap-10">
           <h3 className="font-medium text-sm text-accent text-center md:text-left">

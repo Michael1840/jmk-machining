@@ -5,7 +5,7 @@ import Section from '@/components/section/Section';
 
 export default function HeroHome() {
   return (
-    <HeroContainer image="/hero_home.png">
+    <HeroContainer image="/images/hero_home.png">
       <ColumnContainer className="md:max-w-200">
         <h3 className="font-medium text-sm mt-5 text-accent text-center">
           INDUSTRIAL MACHINING & REPAIR

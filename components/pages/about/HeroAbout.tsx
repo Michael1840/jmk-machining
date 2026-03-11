@@ -5,7 +5,7 @@ import Section from '@/components/section/Section';
 export default function HeroAbout() {
   return (
     <HeroContainer
-      image="/hero_about.png"
+      image="/images/hero_about.png"
       className="justify-center sm:justify-start"
     >
       <ColumnContainer className="justify-start max-w-full lg:max-w-1/2">

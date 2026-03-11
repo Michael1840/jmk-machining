@@ -61,7 +61,7 @@ export default function ChooseUsContainer() {
           </RevealSection>
         </ul>
       </div>
-      <ImageWrapper src={'/bearing.png'} alt="Bearing image" />
+      <ImageWrapper src={'/images/bearing.png'} alt="Bearing image" />
     </Section>
   );
 }

@@ -7,7 +7,7 @@ export default function DetailedServiceContainer() {
     <Section className="flex flex-col gap-40">
       <DetailedServiceItem
         icon={<Zap className="stroke-accent" size={32} />}
-        imagePath="/tig_weld_example.jpg"
+        imagePath="/images/tig_weld_example.jpg"
         title="TIG Welding"
         description="Tungsten Inert Gas welding offers precision for thinner materials and intricate designs. Best suited for stainless steel, aluminium, and cast iron."
         details={[
@@ -20,7 +20,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Zap className="stroke-accent" size={32} />}
-        imagePath="/mig_example.jpg"
+        imagePath="/images/mig_example.jpg"
         title="ARC & MIG Welding"
         description="Versatile welding solutions for structural work and heavy-duty applications. Ideal for carbon steel, site work, and high-deposition jobs."
         details={[
@@ -34,7 +34,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Cog className="stroke-accent" size={32} />}
-        imagePath="/milling_example.jpg"
+        imagePath="/images/milling_example.jpg"
         title="Milling"
         description="From general-purpose milling to tight-tolerance precision work. We machine complex profiles, pockets, and flat surfaces in a range of materials."
         details={[
@@ -47,7 +47,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Settings className="stroke-accent" size={32} />}
-        imagePath="/turning_example.jpg"
+        imagePath="/images/turning_example.jpg"
         title="Turning"
         description="CNC and manual turning for shafts, bushes, flanges, and custom components. Precision diameter tolerances achieved consistently."
         details={[
@@ -61,7 +61,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Layers3 className="stroke-accent" size={32} />}
-        imagePath="/paper_to_product.jpg"
+        imagePath="/images/paper_to_product.jpg"
         title="Fabrication"
         description="Custom metalwork fabrication for industrial and commercial applications. Designed and built to your specification."
         details={[
@@ -74,7 +74,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Compass className="stroke-accent" size={32} />}
-        imagePath="/cad_drawing.jpg"
+        imagePath="/images/cad_drawing.jpg"
         title="CAD Design"
         description="Professional CAD design for parts, assemblies, and fabrication drawings. From concept to production-ready documentation."
         details={[
@@ -88,7 +88,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Droplets className="stroke-accent" size={32} />}
-        imagePath="/hydraulics_1.png"
+        imagePath="/images/hydraulics_1.png"
         title="Hydraulics"
         description="Custom hydraulic solutions designed and built in-house. From individual components to complete power pack assemblies."
         details={[

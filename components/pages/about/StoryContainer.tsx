@@ -5,7 +5,7 @@ import Section from '@/components/section/Section';
 export default function StoryContainer() {
   return (
     <Section className="flex flex-wrap-reverse gap-10 bg-app-container border-y border-border-secondary justify-center">
-      <ImageWrapper alt="Drill image" src="/drill.png" />
+      <ImageWrapper alt="Drill image" src="/images/drill.png" />
       <div className="flex-1 min-w-1/2">
         <div className="flex flex-col gap-10">
           <RevealSection>

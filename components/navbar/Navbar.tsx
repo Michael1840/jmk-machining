@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="flex items-center gap-4 justify-between px-8 py-6">
         <Link href="/" className="text-xl font-bold text-primary">
           <Image
-            src="/jmk-white.svg"
+            src="/svgs/jmk-white.svg"
             alt="Logo"
             width={40}
             height={10}
@@ -69,7 +69,7 @@ export default function Navbar() {
           >
             Services
           </Link>
-          <Link
+          {/* <Link
             href="/products"
             className={
               pathname === '/products'
@@ -78,7 +78,7 @@ export default function Navbar() {
             }
           >
             Products
-          </Link>
+          </Link> */}
           <Link
             href="/gallery"
             className={

@@ -8,7 +8,9 @@ export default function HeroButtons() {
     <RowContainer className="justify-center mt-10">
       <RegularButton
         title="Request a Quote"
-        onClick={() => {}}
+        onClick={() => {
+          window.location.href = '/contact';
+        }}
         hasIcon={true}
         className="bg-accent border-2 border-none"
       />

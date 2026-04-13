@@ -20,7 +20,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Zap className="stroke-accent" size={32} />}
-        imagePath="/images/mig_example.jpg"
+        imagePath="/images/arc-example.jpg"
         title="ARC & MIG Welding"
         description="Versatile welding solutions for structural work and heavy-duty applications. Ideal for carbon steel, site work, and high-deposition jobs."
         details={[
@@ -88,7 +88,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Droplets className="stroke-accent" size={32} />}
-        imagePath="/images/hydraulics_1.png"
+        imagePath="/images/hydraulic-2.jpg"
         title="Hydraulics"
         description="Custom hydraulic solutions designed and built in-house. From individual components to complete power pack assemblies."
         details={[

@@ -17,7 +17,7 @@ export default function ContactForm() {
       <div className="flex flex-col w-full bg-accent rounded-t-lg md:rounded-tr-none md:rounded-l-lg px-4 py-16 md:px-8 gap-4">
         <div className="flex flex-col gap-1">
           <h3 className="text-app-background font-bold text-3xl">
-            Get in Touch with Us
+            Get a Free Quote Now
           </h3>
           <p className="text-app-background font-normal text-sm">
             To get more details, please fill out the form and submit
@@ -27,7 +27,7 @@ export default function ContactForm() {
         <div className="flex flex-col gap-1">
           <h3 className="text-app-background font-bold text-sm">Call</h3>
           <p className="text-app-background font-normal text-sm">
-            060 524 5324
+            +27 60 524 5324
           </p>
         </div>
         <div className="w-full h-px bg-app-background"></div>

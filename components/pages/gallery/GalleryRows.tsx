@@ -29,20 +29,20 @@ export default function GalleryRows() {
         title="Machining"
         items={[
           {
-            image: '/images/welding-gallery-1.jpeg',
-            label: 'Structural Welding',
+            image: '/images/machining-1.jpg',
+            label: 'Hydraulic cylinder trunnion block',
           },
           {
-            image: '/images/welding-gallery-2.jpeg',
-            label: 'Precision Parts',
+            image: '/images/machining-2.jpg',
+            label: 'Helical Gears',
           },
           {
-            image: '/images/welding-gallery-3.jpeg',
-            label: 'MIG & TIG Welding',
+            image: '/images/machining-3.jpg',
+            label: 'Low precision geared hinges',
           },
           {
-            image: '/images/welding-gallery-4.jpeg',
-            label: 'MIG & TIG Welding',
+            image: '/images/milling_example.jpg',
+            label: 'Special splined shaft repair for hydraulic piston motor',
           },
         ]}
       />
@@ -50,20 +50,20 @@ export default function GalleryRows() {
         title="Fabrication"
         items={[
           {
-            image: '/images/welding-gallery-1.jpeg',
-            label: 'Structural Welding',
+            image: '/images/cad-result-1.jpg',
+            label: '90° milling head',
           },
           {
-            image: '/images/welding-gallery-2.jpeg',
-            label: 'Precision Parts',
+            image: '/images/paper_to_product.jpg',
+            label: '60T 0.8Mod gear',
           },
           {
-            image: '/images/welding-gallery-3.jpeg',
-            label: 'MIG & TIG Welding',
+            image: '/images/fabrication-1.jpg',
+            label: 'record player parts',
           },
           {
-            image: '/images/welding-gallery-4.jpeg',
-            label: 'MIG & TIG Welding',
+            image: '/images/fabrication-2.jpg',
+            label: 'Low precision geared hinges',
           },
         ]}
       />
@@ -71,20 +71,12 @@ export default function GalleryRows() {
         title="CAD Design"
         items={[
           {
-            image: '/images/welding-gallery-1.jpeg',
-            label: 'Structural Welding',
+            image: '/images/cad-design-1.jpg',
+            label: '90° milling head',
           },
           {
-            image: '/images/welding-gallery-2.jpeg',
-            label: 'Precision Parts',
-          },
-          {
-            image: '/images/welding-gallery-3.jpeg',
-            label: 'MIG & TIG Welding',
-          },
-          {
-            image: '/images/welding-gallery-4.jpeg',
-            label: 'MIG & TIG Welding',
+            image: '/images/cad_drawing.jpg',
+            label: '90° milling head',
           },
         ]}
       />
@@ -92,20 +84,14 @@ export default function GalleryRows() {
         title="Hydraulics"
         items={[
           {
-            image: '/images/welding-gallery-1.jpeg',
-            label: 'Structural Welding',
+            image: '/images/hydraulics-1.jpg',
+            label:
+              'Stainless manifold for spray bars and deck wash on Kraken fishing',
           },
           {
-            image: '/images/welding-gallery-2.jpeg',
-            label: 'Precision Parts',
-          },
-          {
-            image: '/images/welding-gallery-3.jpeg',
-            label: 'MIG & TIG Welding',
-          },
-          {
-            image: '/images/welding-gallery-4.jpeg',
-            label: 'MIG & TIG Welding',
+            image: '/images/hydraulic-2.jpg',
+            label:
+              'Stainless manifold for spray bars and deck wash on Kraken fishing',
           },
         ]}
       />

@@ -10,13 +10,17 @@ export default function ReadyButtons() {
     <RowContainer className="justify-center">
       <RegularButton
         title="Request a Quote"
-        onClick={() => {}}
+        onClick={() => {
+          window.location.href = '/contact';
+        }}
         hasIcon={true}
         className="bg-app-background border-none"
       />
       <RegularButton
-        title="(021) 5555 666"
-        onClick={() => {}}
+        title="+27 60 524 5324"
+        onClick={() => {
+          window.location.href = 'tel:+27605245324';
+        }}
         className="bg-transparent border-app-background text-app-container"
         prefixIcon={<Phone size={16} />}
       />

@@ -73,7 +73,9 @@ export default function HamburgerNav({
         </Link>
         <RegularButton
           title="Request a Quote"
-          onClick={() => {}}
+          onClick={() => {
+            window.location.href = '/contact';
+          }}
           hasIcon={true}
           className="bg-accent border-2 border-none text-center mt-4"
         />

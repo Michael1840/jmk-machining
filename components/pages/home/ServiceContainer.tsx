@@ -1,4 +1,12 @@
-import { Zap, Flame, Layers, Drill } from 'lucide-react';
+import {
+  Zap,
+  Flame,
+  Layers,
+  Drill,
+  Settings,
+  Hammer,
+  PenTool,
+} from 'lucide-react';
 import ServiceItem from './ServiceItem';
 import RegularButton from '../../buttons/RegularButton';
 import ServiceContainerButton from './ServiceContainerButton';
@@ -17,7 +25,7 @@ export default function ServiceContainer() {
 
         <RevealSection>
           <h1 className="font-bold text-3xl md:text-4xl text-center text-text-primary mt-10">
-            Professional Welding Services
+            Professional Machining Services
           </h1>
         </RevealSection>
       </div>
@@ -25,29 +33,29 @@ export default function ServiceContainer() {
         <RevealSection>
           <ServiceItem
             icon={<Zap size={32} className="stroke-accent" />}
-            title="MIG Welding"
-            description="A fast welding process using a continuous wire feed."
+            title="Welding"
+            description="Precision joining of metal components using MIG, TIG, and stick welding techniques for structural and custom fabrication work."
           />
         </RevealSection>
         <RevealSection>
           <ServiceItem
-            icon={<Flame size={32} className="stroke-accent" />}
-            title="Stick Welding"
-            description="A versatile technique suitable for outdoor and windy conditions."
+            icon={<Settings size={32} className="stroke-accent" />}
+            title="Machining"
+            description="CNC and manual machining for tight-tolerance parts, including turning, milling, drilling, and surface finishing."
           />
         </RevealSection>
         <RevealSection>
           <ServiceItem
-            icon={<Layers size={32} className="stroke-accent" />}
-            title="Flux-Cored Arc Welding"
-            description="Ideal for thick materials, providing high penetration."
+            icon={<Hammer size={32} className="stroke-accent" />}
+            title="Fabrication"
+            description="Custom metal fabrication from concept to completion — cutting, bending, forming, and assembling steel, aluminium, and stainless."
           />
         </RevealSection>
         <RevealSection>
           <ServiceItem
-            icon={<Drill size={32} className="stroke-accent" />}
-            title="Submerged Arc Welding"
-            description="Used for heavy-duty applications, delivering deep welds with minimal spatter."
+            icon={<PenTool size={32} className="stroke-accent" />}
+            title="CAD Design"
+            description="Technical 2D drawings and 3D modelling to engineer precise components and assemblies before production begins."
           />
         </RevealSection>
       </div>

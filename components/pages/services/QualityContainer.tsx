@@ -18,28 +18,28 @@ export default function QualityContainer() {
             Uncompromising Quality
           </h1>
           <p className="text-xs md:text-sm text-text-secondary text-center md:text-left">
-            At JMK Machining, we guarantee that every project meets the highest
-            standards of quality. From the first consultation to the final
-            product, we focus on precision and durability.
+            At JMK Machining, we hold every project to the highest standard of
+            quality. From the first consultation to the final product, we focus
+            on precision and durability.
           </p>
         </div>
         <ul className="flex flex-col gap-4 mt-10 items-center md:items-start">
           <li className="flex items-center gap-2">
             <CircleCheck className="stroke-accent w-4.5 md:w-8" />
             <p className="text-xs md:text-sm">
-              Precise welds, completed efficiently
+              Precision machining, welding, and custom fabrication
             </p>
           </li>
           <li className="flex items-center gap-2">
             <CircleCheck className="stroke-accent w-4.5 md:w-8" />
             <p className="text-xs md:text-sm">
-              Durable welds that stand the test of time
+              CAD design from concept to production-ready parts
             </p>
           </li>
           <li className="flex items-center gap-2">
             <CircleCheck className="stroke-accent w-4.5 md:w-8" />
             <p className="text-xs md:text-sm">
-              Perfect for industrial and artistic applications
+              Serving individuals and industrial clients alike
             </p>
           </li>
         </ul>

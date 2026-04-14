@@ -16,10 +16,9 @@ export default function HeroAbout() {
           Building Trust Through Quality Craftsmanship
         </h1>
         <p className="font-normal text-sm mt-10 text-text-secondary text-center sm:text-start">
-          Established in 2003, JMK Machining began as a humble family venture
-          and has since evolved into a premier machining and fabrication company
-          in the region. Our unwavering dedication to quality has solidified our
-          position as an industry leader.
+          From quick repairs to complex industrial jobs — every project that
+          comes through our doors gets the same precision and personal
+          attention. No shortcuts, no compromises.
         </p>
       </ColumnContainer>
     </HeroContainer>

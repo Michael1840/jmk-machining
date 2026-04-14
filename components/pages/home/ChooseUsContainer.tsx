@@ -16,15 +16,17 @@ export default function ChooseUsContainer() {
           </RevealSection>
           <RevealSection>
             <h1 className="font-bold text-3xl md:text-4xl text-center md:text-left text-text-primary">
-              Trusted by industry leaders for over 2 decades.
+              Passionate about the craft, dedicated to our customers.
             </h1>
           </RevealSection>
 
           <RevealSection>
             <p className="text-xs md:text-sm text-text-secondary text-center md:text-left">
-              Lorem ipsum forem absum, lorem ipsum forem absum, lorem ipsum
-              forem absum,lorem ipsum forem absum,lorem ipsum forem absum,lorem
-              ipsum forem absum,lorem ipsum forem absum,lorem ipsum forem absum.
+              We're a small, hands-on workshop that takes pride in every job —
+              big or small. From one-off repairs to custom fabrication, we treat
+              every project with the same care and attention to detail. When you
+              work with us, you're not a number on an order sheet — you're a
+              neighbour, and your work matters to us.
             </p>
           </RevealSection>
         </div>

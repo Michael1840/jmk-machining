@@ -15,21 +15,24 @@ export default function StoryContainer() {
           </RevealSection>
           <RevealSection>
             <p className="text-xs md:text-sm text-text-secondary text-center md:text-left">
-              What began as a passion in a home garage has grown into a
-              comprehensive machining and fabrication facility. Founder and red
-              seal certified fitter and turner, James Kruger, inherited the
-              trade from his father and has devoted himself to perfecting the
-              craft of metalwork.
+              What began as a passion project in his garage, has grown into a
+              fully equipped machining and fabrication workshop, still proudly
+              operating from that same space today. Founder and red seal
+              certified fitter and turner, Joshua Kiggen, developed his hands-on
+              passion early on, inspired by his grandfather’s woodwork. He first
+              crafted high-quality wooden spearguns before naturally progressing
+              into machining and metalwork.
               <br />
               <br />
-              Over the years, we've invested in cutting-edge technology and
-              assembled a team of certified machinists who share our commitment
-              to excellence. Today, we serve a diverse clientele, from
-              individual clients to major industrial firms.
+              Over time, the workshop has been outfitted to handle everything
+              from one-off repairs to complex fabrication projects. Today, JMK
+              Machining serves both individuals and industrial clients with
+              demanding specifications.
               <br />
               <br />
-              Our mission is clear: to provide superior machining services with
-              honesty, accuracy, and a personalized approach that sets us apart.
+              Our mission is simple: to deliver quality workmanship with
+              honesty, precision, and a personal touch larger workshops can’t
+              match.
             </p>
           </RevealSection>
         </div>

@@ -61,20 +61,12 @@ export default function GalleryRows() {
             label: 'Stick Welding',
           },
           {
-            image: '/images/welding-gallery-1.jpeg',
-            label: 'Structural Welding',
-          },
-          {
             image: '/images/welding-gallery-2.jpeg',
-            label: 'Precision Parts',
+            label: 'Aluminium Tig',
           },
           {
             image: '/images/welding-gallery-3.jpeg',
-            label: 'MIG & TIG Welding',
-          },
-          {
-            image: '/images/welding-gallery-4.jpeg',
-            label: 'MIG & TIG Welding',
+            label: 'Stainless Tig',
           },
         ]}
       />
@@ -88,6 +80,10 @@ export default function GalleryRows() {
           {
             image: '/images/paper_to_product.jpg',
             label: '60T 0.8Mod gear',
+          },
+          {
+            image: '/images/welding-gallery-4.jpeg',
+            label: 'Custom air intake',
           },
           {
             image: '/images/fabrication-1.jpg',

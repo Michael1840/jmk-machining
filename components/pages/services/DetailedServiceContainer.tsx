@@ -6,6 +6,33 @@ export default function DetailedServiceContainer() {
   return (
     <Section className="flex flex-col gap-40">
       <DetailedServiceItem
+        icon={<Cog className="stroke-accent" size={32} />}
+        imagePath="/images/milling_example.jpg"
+        title="Milling"
+        description="From general-purpose milling to tight-tolerance precision work. We machine complex profiles, pockets, and flat surfaces in a range of materials."
+        details={[
+          'General and precision milling',
+          'Keyway cutting to DIN/ISO standards',
+          'Spline and gear cutting',
+          'Multi-axis setups for complex geometries',
+        ]}
+        alt="Milling machine"
+      />
+      <DetailedServiceItem
+        icon={<Settings className="stroke-accent" size={32} />}
+        imagePath="/images/turning-3.jpg"
+        title="Turning"
+        description="CNC and manual turning for shafts, bushes, flanges, and custom components. Precision diameter tolerances achieved consistently."
+        details={[
+          'Shafts, spindles, and threaded components',
+          'Tight tolerance turned parts',
+          'Gear cutting and spline profiles',
+          'Both prototype and production runs',
+        ]}
+        isRight={false}
+        alt="Lathe"
+      />
+      <DetailedServiceItem
         icon={<Zap className="stroke-accent" size={32} />}
         imagePath="/images/tig_weld_example.jpg"
         title="TIG Welding"
@@ -31,33 +58,6 @@ export default function DetailedServiceContainer() {
         ]}
         isRight={false}
         alt="Man welding"
-      />
-      <DetailedServiceItem
-        icon={<Cog className="stroke-accent" size={32} />}
-        imagePath="/images/milling_example.jpg"
-        title="Milling"
-        description="From general-purpose milling to tight-tolerance precision work. We machine complex profiles, pockets, and flat surfaces in a range of materials."
-        details={[
-          'General and precision milling',
-          'Keyway cutting to DIN/ISO standards',
-          'Spline and gear cutting',
-          'Multi-axis setups for complex geometries',
-        ]}
-        alt="Milling machine"
-      />
-      <DetailedServiceItem
-        icon={<Settings className="stroke-accent" size={32} />}
-        imagePath="/images/turning_example.jpg"
-        title="Turning"
-        description="CNC and manual turning for shafts, bushes, flanges, and custom components. Precision diameter tolerances achieved consistently."
-        details={[
-          'Shafts, spindles, and threaded components',
-          'Tight tolerance turned parts',
-          'Gear cutting and spline profiles',
-          'Both prototype and production runs',
-        ]}
-        isRight={false}
-        alt="Lathe"
       />
       <DetailedServiceItem
         icon={<Layers3 className="stroke-accent" size={32} />}

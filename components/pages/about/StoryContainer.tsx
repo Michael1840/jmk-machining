@@ -16,12 +16,11 @@ export default function StoryContainer() {
           <RevealSection>
             <p className="text-xs md:text-sm text-text-secondary text-center md:text-left">
               What began as a passion project in his garage, has grown into a
-              fully equipped machining and fabrication workshop, still proudly
-              operating from that same space today. Founder and red seal
-              certified fitter and turner, Joshua Kiggen, developed his hands-on
-              passion early on, inspired by his grandfather’s woodwork. He first
-              crafted high-quality wooden spearguns before naturally progressing
-              into machining and metalwork.
+              fully equipped machining and fabrication workshop. Founder and red
+              seal certified fitter and turner, Joshua Kiggen, developed his
+              hands-on passion early on, inspired by his grandfather's woodwork.
+              He first crafted high-quality wooden spearguns before naturally
+              progressing into machining and metalwork.
               <br />
               <br />
               Over time, the workshop has been outfitted to handle everything
@@ -31,7 +30,7 @@ export default function StoryContainer() {
               <br />
               <br />
               Our mission is simple: to deliver quality workmanship with
-              honesty, precision, and a personal touch larger workshops can’t
+              honesty, precision, and a personal touch larger workshops can't
               match.
             </p>
           </RevealSection>

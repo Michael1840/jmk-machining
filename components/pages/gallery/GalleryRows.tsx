@@ -5,8 +5,61 @@ export default function GalleryRows() {
   return (
     <Section className="flex flex-col gap-16">
       <ScrollRow
+        title="Machining"
+        items={[
+          {
+            image: '/images/planetary-gearbox.jpg',
+            label: 'Planetary Gearbox',
+          },
+          {
+            image: '/images/gearbox-1.jpeg',
+            label: 'Planetary Gearbox',
+          },
+          {
+            image: '/images/bearing.png',
+            label: 'Final drive gearbox for Civils2000',
+          },
+          {
+            image: '/images/machining-1.jpg',
+            label: 'Hydraulic cylinder trunnion block',
+          },
+          {
+            image: '/images/machining-2.jpg',
+            label: 'Helical Gears',
+          },
+          {
+            image: '/images/machining-3.jpg',
+            label: 'Low precision geared hinges',
+          },
+          {
+            image: '/images/spline-cutting-1.jpeg',
+            label: 'Spline Cutting',
+          },
+          {
+            image: '/images/milling_example.jpg',
+            label: 'Special splined shaft repair for hydraulic piston motor',
+          },
+          {
+            image: '/images/turning-1.jpeg',
+            label: 'Turning',
+          },
+          {
+            image: '/images/turning-2.jpeg',
+            label: 'Turning',
+          },
+          {
+            image: '/images/turning-3.jpg',
+            label: 'Turning',
+          },
+        ]}
+      />
+      <ScrollRow
         title="Welding"
         items={[
+          {
+            image: '/images/stick-welding.jpeg',
+            label: 'Stick Welding',
+          },
           {
             image: '/images/welding-gallery-1.jpeg',
             label: 'Structural Welding',
@@ -22,27 +75,6 @@ export default function GalleryRows() {
           {
             image: '/images/welding-gallery-4.jpeg',
             label: 'MIG & TIG Welding',
-          },
-        ]}
-      />
-      <ScrollRow
-        title="Machining"
-        items={[
-          {
-            image: '/images/machining-1.jpg',
-            label: 'Hydraulic cylinder trunnion block',
-          },
-          {
-            image: '/images/machining-2.jpg',
-            label: 'Helical Gears',
-          },
-          {
-            image: '/images/machining-3.jpg',
-            label: 'Low precision geared hinges',
-          },
-          {
-            image: '/images/milling_example.jpg',
-            label: 'Special splined shaft repair for hydraulic piston motor',
           },
         ]}
       />

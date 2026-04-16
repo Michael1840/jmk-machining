@@ -8,16 +8,16 @@ export default function GalleryRows() {
         title="Machining"
         items={[
           {
+            image: '/images/bearing.png',
+            label: 'Final drive gearbox for Civils2000',
+          },
+          {
             image: '/images/planetary-gearbox.jpg',
             label: 'Planetary Gearbox',
           },
           {
             image: '/images/gearbox-1.jpeg',
             label: 'Planetary Gearbox',
-          },
-          {
-            image: '/images/bearing.png',
-            label: 'Final drive gearbox for Civils2000',
           },
           {
             image: '/images/machining-1.jpg',
@@ -57,12 +57,12 @@ export default function GalleryRows() {
         title="Welding"
         items={[
           {
-            image: '/images/stick-welding.jpeg',
-            label: 'Stick Welding',
-          },
-          {
             image: '/images/welding-gallery-2.jpeg',
             label: 'Aluminium Tig',
+          },
+          {
+            image: '/images/stick-welding.jpeg',
+            label: 'Stick Welding',
           },
           {
             image: '/images/welding-gallery-3.jpeg',
@@ -99,6 +99,10 @@ export default function GalleryRows() {
         title="CAD Design"
         items={[
           {
+            image: '/images/cad-drawing.jpeg',
+            label: '90° milling head',
+          },
+          {
             image: '/images/cad-design-1.jpg',
             label: '90° milling head',
           },
@@ -111,6 +115,11 @@ export default function GalleryRows() {
       <ScrollRow
         title="Hydraulics"
         items={[
+          {
+            image: '/images/hydraulics.jpeg',
+            label:
+              'Stainless manifold for spray bars and deck wash on Kraken fishing',
+          },
           {
             image: '/images/hydraulics-1.jpg',
             label:

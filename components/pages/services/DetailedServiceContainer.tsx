@@ -74,7 +74,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Compass className="stroke-accent" size={32} />}
-        imagePath="/images/cad_drawing.jpg"
+        imagePath="/images/cad-drawing.jpeg"
         title="CAD Design"
         description="Professional CAD design for parts, assemblies, and fabrication drawings. From concept to production-ready documentation."
         details={[
@@ -88,7 +88,7 @@ export default function DetailedServiceContainer() {
       />
       <DetailedServiceItem
         icon={<Droplets className="stroke-accent" size={32} />}
-        imagePath="/images/hydraulic-2.jpg"
+        imagePath="/images/hydraulics.jpeg"
         title="Hydraulics"
         description="Custom hydraulic solutions designed and built in-house. From individual components to complete power pack assemblies."
         details={[

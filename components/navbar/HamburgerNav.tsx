@@ -41,7 +41,7 @@ export default function HamburgerNav({
         >
           Services
         </Link>
-        <Link
+        {/* <Link
           href="/products"
           className={`${
             pathname === '/products'
@@ -50,7 +50,7 @@ export default function HamburgerNav({
           }  transition-all duration-150 ease-out`}
         >
           Products
-        </Link>
+        </Link> */}
         <Link
           href="/gallery"
           className={`${

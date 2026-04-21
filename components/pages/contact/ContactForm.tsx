@@ -4,12 +4,59 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Section from '@/components/section/Section';
 import RegularButton from '@/components/buttons/RegularButton';
+import { Wrench } from 'lucide-react';
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('mbdanjdj');
 
-  if (state.succeeded) {
-    return <p>Thanks for reaching out! We'll get back to you soon.</p>;
+  if (!state.succeeded) {
+    return (
+      <Section className="flex flex-col md:flex-row">
+        <div className="flex flex-col items-center justify-center w-full bg-app-container rounded-lg py-20 px-8 gap-6 text-center">
+          <style>{`
+          @keyframes pop-in {
+            0% { transform: scale(0.5) rotate(-20deg); opacity: 0; }
+            70% { transform: scale(1.15) rotate(10deg); }
+            100% { transform: scale(1) rotate(0deg); opacity: 1; }
+          }
+          @keyframes fade-up {
+            from { transform: translateY(12px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+          }
+          .icon-pop { animation: pop-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+          .fade-up-1 { animation: fade-up 0.4s ease forwards 0.3s; opacity: 0; }
+          .fade-up-2 { animation: fade-up 0.4s ease forwards 0.5s; opacity: 0; }
+        `}</style>
+
+          <div className="icon-pop flex items-center justify-center w-20 h-20 rounded-full bg-accent/10 border-2 border-accent">
+            <Wrench className="w-9 h-9 text-accent" strokeWidth={1.5} />
+          </div>
+          <div className="fade-up-1 flex flex-col gap-2">
+            <h3 className="text-2xl font-bold">We're On It!</h3>
+            <p className="text-sm text-muted-foreground max-w-sm">
+              Your enquiry has landed in the right hands. We'll get back to you
+              within one business day with a quote.
+            </p>
+          </div>
+          <div className="fade-up-2 flex flex-col gap-1 text-sm text-muted-foreground">
+            <p>Need to reach us sooner?</p>
+            <p className="font-medium">
+              Call{' '}
+              <a href="tel:+27605245324" className="text-accent underline">
+                +27 60 524 5324
+              </a>{' '}
+              or email{' '}
+              <a
+                href="mailto:jmkmachining@gmail.com"
+                className="text-accent underline"
+              >
+                jmkmachining@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
+      </Section>
+    );
   }
 
   return (

@@ -9,7 +9,7 @@ import { Wrench } from 'lucide-react';
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('mbdanjdj');
 
-  if (!state.succeeded) {
+  if (state.succeeded) {
     return (
       <Section className="flex flex-col md:flex-row">
         <div className="flex flex-col items-center justify-center w-full bg-app-container rounded-lg py-20 px-8 gap-6 text-center">

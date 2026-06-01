@@ -114,7 +114,7 @@ export default function ContactForm() {
           <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
         <div className="flex flex-col gap-2">
-          <label className="text-sm" htmlFor="name">
+          <label className="text-sm" htmlFor="email">
             Email Address
           </label>
           <input

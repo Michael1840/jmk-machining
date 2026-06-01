@@ -100,7 +100,7 @@ export default function GalleryRows() {
         items={[
           {
             image: '/images/cad-drawing.jpeg',
-            label: '90° milling head',
+            label: 'Hydraulic cylinder necknut',
           },
           {
             image: '/images/cad-design-1.jpg',
@@ -117,8 +117,7 @@ export default function GalleryRows() {
         items={[
           {
             image: '/images/hydraulics.jpeg',
-            label:
-              'Stainless manifold for spray bars and deck wash on Kraken fishing',
+            label: 'Hydraulic cylinders',
           },
           {
             image: '/images/hydraulics-1.jpg',
